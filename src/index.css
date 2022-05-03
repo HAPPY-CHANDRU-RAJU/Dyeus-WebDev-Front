@@ -234,7 +234,9 @@ hr{
 .text-black{
     color: #000;
 }
-
+.flex{
+    display: flex;
+}
 .btn-black{
     background-color: #000;
     color: #fff;
