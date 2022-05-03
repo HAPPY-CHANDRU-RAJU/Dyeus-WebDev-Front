@@ -6,6 +6,11 @@ import aboutimg1 from './img/liq.png';
 import aboutimg2 from './img/gil.png';
 import aboutimg3 from './img/phone-call.png';
 
+import pic1 from 'img/Rectangle 194.png';
+import pic2 from 'img/Rectangle 197.png';
+import pic3 from 'img/Rectangle 198.png';
+import pic4 from 'img/Rectangle 193.png';
+
 import './index.css';
 
 function App() {
@@ -71,18 +76,18 @@ function App() {
       <button className="bnt bnt-blue font18">Track you mood on the app</button>
       <div className="row flex">
           <div className="img-fix" >
-              <img src="img/Rectangle 194.png" />
+              <img src={pic1} alt="image1" />
           </div>
           <div>
-              <img src="img/Rectangle 197.png" />
+              <img src={pic2} alt="image2"/>
           </div>
       </div>
       <div className="row flex" >
           <div className="img-fix"  >
-              <img src="img/Rectangle 198.png" />
+              <img src={pic3} alt="image3" />
           </div>
           <div >
-              <img src="img/Rectangle 193.png" />
+              <img src={pic4} alt="image4" />
           </div>
       </div>
     </div>
