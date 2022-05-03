@@ -1,8 +1,29 @@
 body{
   font-family : "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji","Reptile"
 }
+
 hr{
-  border: 1px solid #000000;
+    border: 1px solid #000;
 }
 
-
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    text-align: center;
+}
+.nav-fix{   
+    background-color: #fff;
+    box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+    backdrop-filter: blur(4px);
+    border-radius: 0px 0px 14px 14px;
+}
+.menubar{
+    padding: 15px 22px;
+}
+.menu-options img{
+    margin: 0px 15px;
+}
