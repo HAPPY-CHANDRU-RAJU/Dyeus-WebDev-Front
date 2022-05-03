@@ -3,6 +3,8 @@ Creating a small mobile-only web page section using a JS framework
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1756a36-8726-46f3-9f77-a50015b632a1/deploy-status)](https://app.netlify.com/sites/dyeus-webdev/deploys)
+
 ## Table of Content:
 
 - [About The App](#about-the-app)
@@ -13,7 +15,8 @@ Creating a small mobile-only web page section using a JS framework
 - [References](#References)
 
 ## About The App
-[Dyeus-WebDev-Front] is a web page section using a JS framework ( REACT JS ).
+[Dyeus-WebDev-Front] is a web page section using a JS framework ( REACT JS ). For Best Experience 375 * 485
+- [Netlify Link](https://dyeus-webdev.netlify.app/)
 
 ## Screenshots
 [Figma Design](https://www.figma.com/file/8nZYb5FIrfSOBh2uzLfsaZ/Task---Dyeus-WebD?node-id=0%3A1)
