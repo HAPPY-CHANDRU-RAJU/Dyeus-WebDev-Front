@@ -12,6 +12,7 @@ function App() {
           <img src="img/bell.png" />
       </div>
     </nav>
+    
     <div class="about div-pad" >
       <h3 class="center">About Diana</h3>
       <h5 class="sub-heading">A platform that looks out for you</h5>
@@ -31,6 +32,7 @@ function App() {
           <p>Consider us your nerdy ally who spends their time perfecting products that work because they want you to feel your best everyday.</p>
       </div>
     </div>
+
     <div class="bg-red div-pad">
       <h4 class="heading left">What makes us different?</h4><br/>
       <p class="text-left sub ">Reimagining and rewiring self-care</p>
@@ -44,6 +46,7 @@ function App() {
       We’re just solving real problems for real people here. 
       </div>
     </div>
+
     <div class="bg-blue div-pad">
       <h4 class="text-left heading">Liberate your everyday wellness </h4>
       <p class="text-left sub text-black">Shop our self-care products</p>
@@ -53,6 +56,7 @@ function App() {
       <button class="bnt bnt-red">Upgrade your self-care</button>
       <p class="alert-t">#NoNasties, we promise!</p>
     </div>
+
     <div class="bg-white div-pad">
       <p class="text-left sub text-black"> Track your mood</p>
       <p class="content2 text-black">All days and all moods are not made equal. But we can only improve what we measure. Track your mood and vitals (including skin and hair health) so you can take better care of yourself every day. </p>
@@ -75,7 +79,20 @@ function App() {
       </div>
     </div>
 
-    
+    <div class="bg-redish div-pad">
+      <p class="text-left sub text-black"> Track your period</p>
+      <p class="content2 text-black">Stay in the know with reliable AI-based and science-backed period, ovulation, and PMS predictions. The intuitive design makes tracking your cycle effortless and helps you stay on top of your monthly data. </p>
+      <button class="bnt bnt-red font17">Track you period on the app</button>
+    </div>
+    <div class="bg-calendar div-pad"></div>
+
+    <div class="bg-gray div-pad">
+        <p class="text-left sub text-black"> Consult with wellness experts</p>
+        <p class="content2 font15 text-black">Set up health consultations with experienced doctors and therapists on our app. Simply select a service, answer a few questions, and we’ll connect you to someone who is the right-fit for you.  </p>
+        <button class="bnt bnt-blue ">Get a consultation</button>
+    </div>
+    <div class="bg-doctor div-pad"></div>
+
   </div>
   );
 }
