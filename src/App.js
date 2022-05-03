@@ -106,7 +106,29 @@ function App() {
       <p class="text-left sub text-white font31 text-black"> With Diana, you’re in control of your health, your every day, and your story.</p>
     </div>
 
-    
+    <div class="bg-black div-pad">
+        <div class="right">
+            <img src="img/facebook.png" class="footer-icon" />
+            <img src="img/twitter.png" class="footer-icon" />
+        </div>
+        <div class="mar30">
+            <ul class="lists">
+                <li>Products <i class="fa fa-chevron-right btn-icon" ></i></li>
+                <li>Our Science <i class="fa fa-chevron-right btn-icon" ></i></li>
+                <li>Vision & Mission <i class="fa fa-chevron-right btn-icon" ></i></li>
+                <li>About Us<i class="fa fa-chevron-right btn-icon" ></i></li>
+            </ul>
+        </div>
+        <hr class="white-hr"/>
+        <div class="form">
+            <span>Subscribe to our Newsletter</span>
+            <div>
+                <input name="email"  placeholder="Enter your email..." class="form-input"/>
+                <button type="submit" class="form-btn"><i class="fa fa-envelope"></i> activate</button>
+            </div>
+        </div>
+    </div>
+
   </div>
   );
 }
