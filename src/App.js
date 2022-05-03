@@ -53,6 +53,29 @@ function App() {
       <button class="bnt bnt-red">Upgrade your self-care</button>
       <p class="alert-t">#NoNasties, we promise!</p>
     </div>
+    <div class="bg-white div-pad">
+      <p class="text-left sub text-black"> Track your mood</p>
+      <p class="content2 text-black">All days and all moods are not made equal. But we can only improve what we measure. Track your mood and vitals (including skin and hair health) so you can take better care of yourself every day. </p>
+      <button class="bnt bnt-blue font18">Track you mood on the app</button>
+      <div class="row" style="display: flex;">
+          <div class="img-fix" >
+              <img src="img/Rectangle 194.png" />
+          </div>
+          <div>
+              <img src="img/Rectangle 197.png" />
+          </div>
+      </div>
+      <div class="row" style="display: flex;">
+          <div class="img-fix"  >
+              <img src="img/Rectangle 198.png" />
+          </div>
+          <div >
+              <img src="img/Rectangle 193.png" />
+          </div>
+      </div>
+    </div>
+
+    
   </div>
   );
 }
