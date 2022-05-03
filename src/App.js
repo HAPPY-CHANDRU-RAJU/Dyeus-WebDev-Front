@@ -14,7 +14,9 @@ import pic4 from './img/Rectangle-193.png';
 import box from './img/Untitled-23.png';
 import fb from './img/facebook.png';
 import tw from './img/twitter.png';
-import './index.css';
+
+import './style.sass';
+//import './index.css';
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
       </div>
     </nav>
 
-    <div className="about div-pad" >
+    <div className="about div-pad mar50" >
       <h3 className="center">About Diana</h3>
       <h5 className="sub-heading">A platform that looks out for you</h5>
       <p className="para">Diana empowers you to understand how your body works so you can look and feel your best. </p>
