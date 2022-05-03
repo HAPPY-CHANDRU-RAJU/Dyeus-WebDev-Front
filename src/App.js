@@ -1,3 +1,11 @@
+import menu from './img/menu.png';
+import cart from './img/shopping-cart.png';
+import bell from './img/bell.png';
+
+import aboutimg1 from './img/liq.png';
+import aboutimg2 from './img/gil.png';
+import aboutimg3 from './img/phone-call.png';
+
 import './index.css';
 
 function App() {
@@ -5,11 +13,11 @@ function App() {
   <div>
     <nav class="navbar navbar-fixed-top nav-fix">
       <div class="left menubar">
-          <img src="img/menu.png" />
+          <img src={menu} alt="menu" />
       </div>
       <div class="right menubar menu-options">
-          <img src="img/shopping-cart.png" />
-          <img src="img/bell.png" />
+          <img src={cart} alt="cart" />
+          <img src={bell} alt="bell" />
       </div>
     </nav>
 
@@ -22,11 +30,11 @@ function App() {
       <p class="sub">Sustainable wellness is a big-picture, inside out approach</p>
       <p class="content">Diana is on a mission to create thoughtful, science-backed solutions for women who want to make informed decisions about their health and wellness. <br/><br/>That’s why we’ve created an integrated ecosystem of: </p>
       <div class="center highlights">
-          <img src="img/liq.png" />
+          <img src={aboutimg1} alt="img1"/>
           <p>Consciously formulated products that deliver feel-good results fast  </p>
-          <img src="img/gil.png" />
+          <img src={aboutimg2} alt="img2"/>
           <p>In-app mood and seriod tracking options that help you cultivate a deeper connection with your mind and body  </p>
-          <img src="img/phone-call.png" />
+          <img src={aboutimg3} alt="img3" />
           <p>In-app consultation portals that connect you with compassionate wellness experts </p>
           <br/><br/>
           <p>Consider us your nerdy ally who spends their time perfecting products that work because they want you to feel your best everyday.</p>
