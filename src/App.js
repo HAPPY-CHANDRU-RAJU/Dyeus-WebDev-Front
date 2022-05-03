@@ -6,11 +6,14 @@ import aboutimg1 from './img/liq.png';
 import aboutimg2 from './img/gil.png';
 import aboutimg3 from './img/phone-call.png';
 
-import pic1 from 'img/Rectangle 194.png';
-import pic2 from 'img/Rectangle 197.png';
-import pic3 from 'img/Rectangle 198.png';
-import pic4 from 'img/Rectangle 193.png';
+import pic1 from './img/Rectangle-194.png';
+import pic2 from './img/Rectangle-197.png';
+import pic3 from './img/Rectangle-198.png';
+import pic4 from './img/Rectangle-193.png';
 
+import box from './img/Untitled-23.png';
+import fb from './img/facebook.png';
+import tw from './img/twitter.png';
 import './index.css';
 
 function App() {
@@ -108,7 +111,7 @@ function App() {
 
     <div className="bg-redd div-pad ">
       <p className="text-left sub text-white font28"> Get your personalized period box</p>
-      <img src="img/Untitled-23.png" className="size-fix" />
+      <img src={box} className="size-fix" />
       <p className="content2 text-white">Tailor your monthly box of organic period products without the organic price tag (no pink taxing here). Get it delivered to your doorstep in sustainable packaging and track your subscription on our app.  </p>
       <button className="btn btn-black">
         <p className="btn-text">Create your box on the app<i className="fa fa-chevron-right btn-icon" ></i></p>
@@ -121,8 +124,8 @@ function App() {
 
     <div className="bg-black div-pad">
         <div className="right">
-            <img src="img/facebook.png" className="footer-icon" />
-            <img src="img/twitter.png" className="footer-icon" />
+            <img src={fb} alt="facebook" className="footer-icon" />
+            <img src={tw} alt="twitter" className="footer-icon" />
         </div>
         <div className="mar30">
             <ul className="lists">
