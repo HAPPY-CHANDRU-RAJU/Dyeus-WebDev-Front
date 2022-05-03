@@ -267,3 +267,36 @@ hr{
 .white-hr{
     border: 1px solid #fff;
 }
+
+.form{
+    color: #fff;
+}
+
+.form span{
+    font-size: 9px;
+}
+
+.form-input{
+    padding: 5px;
+    width: 72%;
+    background: rgba(255, 255, 255, 0.62);
+    border: 1px solid #E7F6FC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #000;
+    font-size: small;
+    margin: 10px 0px;    
+}
+.form-btn{
+    color: #000;
+    border-radius: 12px;
+    font-size: smaller;
+    padding: 4px 9px;
+    background: #D6F4FB;
+    border: 1.2782px solid #E9F4FF;
+    box-sizing: border-box;
+    margin: 0px 4px;
+}
+.footer-icon{
+    margin: 0px 10px;
+}
