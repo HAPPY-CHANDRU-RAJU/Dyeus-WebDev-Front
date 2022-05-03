@@ -255,3 +255,15 @@ hr{
     color: #fff;
     padding-left: 45px;
 }
+
+.mar30{
+    margin-top: 30px;   
+}
+.lists{
+    list-style: none;
+    padding: 0px;
+    color: #fff;
+}
+.white-hr{
+    border: 1px solid #fff;
+}
