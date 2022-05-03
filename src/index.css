@@ -27,3 +27,64 @@ hr{
 .menu-options img{
     margin: 0px 15px;
 }
+
+.about{
+    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+}
+.div-pad{
+    padding: 25px 30px;
+}
+
+.about h3{
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    color: rgba(27, 27, 80, 1);    
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #1B1B50;
+    margin: 15px 1px;
+    line-height: 33px;
+}
+
+
+.sub-heading{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1B1B50;
+    text-align: center;
+    margin: 15px 1px;
+}
+
+.para {
+    color: #000000b8;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 179%;
+    color: #000000;
+    margin: 25px 0px;
+}
+
+.sub{
+    font-family: 'oleo-script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29.5px;
+    line-height: 134.8%;
+    text-align: center;
+    color: #1B1B50;
+    margin: 30px 0px;    
+}
