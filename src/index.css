@@ -172,3 +172,26 @@ hr{
     border: 1px solid #6E8CF6;
     filter: drop-shadow(0px 2px 6px #6E8CF6);
 }
+.alert-t{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+}
+.bg-flower{
+    background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url('img/pexels-karolina-grabowska-4041391.png');
+    background-size: contain;
+    height: 565px;
+}
+.bg-calendar{
+    background:url('img/4352299 1.png');
+    background-size: contain;
+    height: 375px;
+}
+.bg-doctor{
+    background:url('img/usman-yousaf-unsplash 2.png');
+    background-size: contain;
+    height: 250px;
+}

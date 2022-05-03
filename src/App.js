@@ -102,6 +102,10 @@ function App() {
       </button>
     </div>
 
+    <div class="bg-whitee div-pad">
+      <p class="text-left sub text-white font31 text-black"> With Diana, you’re in control of your health, your every day, and your story.</p>
+    </div>
+
     
   </div>
   );
