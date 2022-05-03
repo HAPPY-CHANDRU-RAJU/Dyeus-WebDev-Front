@@ -2,14 +2,15 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <nav class="navbar navbar-fixed-top nav-fix">
+      <div class="left menubar">
+          <img src="img/menu.png" />
+      </div>
+      <div class="right menubar menu-options">
+          <img src="img/shopping-cart.png" />
+          <img src="img/bell.png" />
+      </div>
+    </nav>
   );
 }
 
