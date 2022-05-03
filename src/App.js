@@ -12,7 +12,7 @@ function App() {
           <img src="img/bell.png" />
       </div>
     </nav>
-    
+
     <div class="about div-pad" >
       <h3 class="center">About Diana</h3>
       <h5 class="sub-heading">A platform that looks out for you</h5>
@@ -93,6 +93,16 @@ function App() {
     </div>
     <div class="bg-doctor div-pad"></div>
 
+    <div class="bg-redd div-pad ">
+      <p class="text-left sub text-white font28"> Get your personalized period box</p>
+      <img src="img/Untitled-23.png" class="size-fix" />
+      <p class="content2 text-white">Tailor your monthly box of organic period products without the organic price tag (no pink taxing here). Get it delivered to your doorstep in sustainable packaging and track your subscription on our app.  </p>
+      <button class="btn btn-black">
+        <p class="btn-text">Create your box on the app<i class="fa fa-chevron-right btn-icon" ></i></p>
+      </button>
+    </div>
+
+    
   </div>
   );
 }
