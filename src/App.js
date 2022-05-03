@@ -44,7 +44,15 @@ function App() {
       We’re just solving real problems for real people here. 
       </div>
     </div>
-    
+    <div class="bg-blue div-pad">
+      <h4 class="text-left heading">Liberate your everyday wellness </h4>
+      <p class="text-left sub text-black">Shop our self-care products</p>
+      <p class="content2 text-black">Gentle formulations thoughtfully engineered by specialist researchers and doctors to simplify your self-care and get results fast. And, we always list our ingredients - so what you see is what you get.  </p>
+    </div>
+    <div class="bg-flower div-pad div-fix">
+      <button class="bnt bnt-red">Upgrade your self-care</button>
+      <p class="alert-t">#NoNasties, we promise!</p>
+    </div>
   </div>
   );
 }
